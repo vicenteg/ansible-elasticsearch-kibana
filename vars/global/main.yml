@@ -1,0 +1,18 @@
+elasticsearch_data_paths:
+  - /elasticsearch/data1
+  - /elasticsearch/data2
+
+elasticsearch_cluster_name: elasticsearch
+elasticsearch_version: 1.7
+elasticsearch_user: elasticsearch
+elasticsearch_group: elasticsearch
+
+#proxy_host: 172.16.1.58
+#proxy_port: 3128
+proxy_host: 
+proxy_port:
+
+proxy_env: { }
+#proxy_env:
+#  http_proxy: http://{{proxy_host}}:{{proxy_port}}
+#  https_proxy: http://{{proxy_host}}:{{proxy_port}}

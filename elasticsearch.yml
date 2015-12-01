@@ -1,0 +1,7 @@
+
+- hosts: elasticsearch
+  vars_files:
+    - vars/global/main.yml
+  roles:
+    - { role: elasticsearch, tags: elasticsearch }
+    - { role: kibana, tags: kibana }

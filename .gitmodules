@@ -1,0 +1,6 @@
+[submodule "roles/kibana"]
+	path = roles/kibana
+	url = https://github.com/vicenteg/vicenteg.kibana.git
+[submodule "roles/elasticsearch"]
+	path = roles/elasticsearch
+	url = https://github.com/vicenteg/vicenteg.elasticsearch.git
